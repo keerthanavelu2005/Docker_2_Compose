@@ -1,0 +1,4 @@
+FROM nginx:2-alpine
+WORKDIR /code
+RUN mkdir/DockerCompose
+ENTRYPOINT ["/usr/sbin/nginx"]
